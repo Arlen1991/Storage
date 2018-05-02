@@ -17,10 +17,17 @@ SmartCarCodeV1_1 添加了编码器测速模块，实现OLED显示小车运动�
 程序为sx1278LoRa模块的发送端和接收端DeMo调试程序，主控STM32开发板
  引脚连接，左侧模块引脚、右侧开发板引脚、
 RF-CE(RST)---------PA8
+
 RF-CSN(NSS)---- ---PB12
+
 RF-IRQ(DIO0)-------PB10
+
 RF-SDN(RST1)--------PB11
+
 SCK----------------PB13
+
 MOSI---------------PB15
+
 MISO---------------PB14
+
 RST /RST1 只连接一个引脚即可
